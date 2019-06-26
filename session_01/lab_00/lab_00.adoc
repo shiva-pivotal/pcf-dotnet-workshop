@@ -22,15 +22,15 @@ $ git --version
 Start by downloading the course materials.  This can be accomplished either through the GitHub website or if you have Git installed, use the following commands:
 
 ```
-$ git clone https://github.com/shiva-pivotal/pcf-java-workshop.git
-$ cd pcf-java-workshop/
+$ git clone https://github.com/shiva-pivotal/pcf-dotnet-workshop.git
+$ cd pcf-dotnet-workshop/
 $ git fetch --all
 ```
 
 A few details you'll need to complete the exercises:
 
-  * **API URL for PAS:** `https://api.dev.sys.pcfonemagnify.com` 
-  * **API URL for PAS Apps Manager:** [https://apps.dev.sys.pcfonemagnify.com](https://apps.dev.sys.pcfonemagnify.com)
+  * **API URL for PAS:** `https://api.run.haas-205.pez.pivotal.io` 
+  * **API URL for PAS Apps Manager:** [https://apps.run.haas-205.pez.pivotal.io](https://apps.run.haas-205.pez.pivotal.io)
   * **Environment Credentials:** [Google Sheets](https://docs.google.com/spreadsheets/d/1e9knXV2E80-Ef8tXqpXehnRhWRNrEnTlSfJnbaZ6xkw/edit#gid=0)
 
 == CF CLI Target and Log In
@@ -38,7 +38,7 @@ A few details you'll need to complete the exercises:
 . Set the API target for the CLI:
 +
 ----
-$ cf api --skip-ssl-validation https://api.dev.sys.pcfonemagnify.com
+$ cf api --skip-ssl-validation https://api.run.haas-205.pez.pivotal.io
 ----
 
 . Login to Pivotal Cloud Foundry:
@@ -52,7 +52,7 @@ Follow the prompts, entering in the student credentials provided by the instruct
 ====
 ----
 > cf login
-API endpoint: https://api.dev.sys.pcfonemagnify.com
+API endpoint: https://api.run.haas-205.pez.pivotal.io
 
 Email> student-1
 
@@ -65,7 +65,7 @@ Targeted org student-1
 Targeted space student-1
 
 
-API endpoint:   https://api.dev.sys.pcfonemagnify.com (API version: 2.112.0)
+API endpoint:   https://api.run.haas-205.pez.pivotal.io (API version: 2.112.0)
 User:           student-1
 Org:            student-1
 Space:          student-1
@@ -75,7 +75,7 @@ Space:          student-1
 
 == AppsManager Log In
 
-. Log In to Apps Manager URL: https://apps.dev.sys.pcfonemagnify.com. Click on the 'LOG IN'link in the upper right corner. Use the same username and password you entered when using the CF CLI
+. Log In to Apps Manager URL: https://apps.run.haas-205.pez.pivotal.io. Click on the 'LOG IN'link in the upper right corner. Use the same username and password you entered when using the CF CLI
 +
 image::../../Common/images/lab-student-login-screen.png[]  
 
