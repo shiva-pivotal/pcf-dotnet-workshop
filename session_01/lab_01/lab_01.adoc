@@ -14,7 +14,7 @@ Estimated Time: 30 minutes
 . Download and clone the git repo, if you have the command line tool installed, or you can click 'Download ZIP' on the right side of the page https://github.com/shiva-pivotal/pcf-java-workshop
 +
 ----
-> git clone https://github.com/shiva-pivotal/pcf-java-workshop.git
+> git clone https://github.com/shiva-pivotal/pcf-dotnet-workshop.git
 ----
 
 == Navigate to the application directory
@@ -61,7 +61,7 @@ Follow the prompts.
 
 == Push It!
 
-. Push the application from */pcf-java-workshop/deployables/articulate* directory!
+. Push the application from */pcf-dotnet-workshop/deployables/dot-net-articulate* directory!
 +
 ----
 > cf push
@@ -77,7 +77,7 @@ Using manifest file /Users/shiva/workspace/om-workshop/pcf-java-workshop/deploya
 Getting app info...
 Creating app with these attributes...
 + name:         shiva-articulate
-  path:         /Users/shiva/workspace/om-workshop/pcf-java-workshop/deployables/articulate/pcf-ers-demo1-0.0.1-SNAPSHOT.jar
+  path:         /Users/shiva/workspace/om-workshop/pcf-dotnet-workshop/deployables/dot-net-articulate/pcf-ers-demo1-0.0.1-SNAPSHOT.jar
 + disk quota:   1G
 + instances:    1
 + memory:       2G
